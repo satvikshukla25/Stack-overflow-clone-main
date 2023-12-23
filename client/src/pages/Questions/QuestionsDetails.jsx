@@ -39,7 +39,8 @@ const QuestionsDetails = () => {
         }
     }
     const location = useLocation()
-    const url = 'http://localhost:3000'
+    // const url = 'http://localhost:3000'
+    const url = 'https://stack-overflow-clone-dboe.onrender.com'
 
     const handleShare= ()=>{
         copy(url + location.pathname)
